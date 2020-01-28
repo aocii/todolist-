@@ -1,0 +1,69 @@
+.mt-5, .my-5 {
+    margin-top: 10rem!important;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 12%, rgba(0, 212, 255, 1) 100%);
+}
+
+.header-main {
+    background-color: blue;
+    border: 2px solid black;
+    color: white;
+    text-indent: 1rem;
+}
+
+.mb-n1 {
+    margin-bottom: -0.01rem !important;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+/* .slide {
+    position: absolute;
+    left: -10px;
+    width: 10px;
+    height: 10px;
+    background: blue;
+    transition: 1s;
+}
+
+.list-group-item{
+    position: relative;
+    overflow: hidden;
+}
+
+.list-group-item:hover .slide {
+    transition: 1s;
+    left: 0;
+} */
+
+.list-group-item {
+    position: relative;
+    overflow: hidden;
+    padding-left: 1px;
+}
+
+#slide {
+    position: absolute;
+    left: -100px;
+    width: 25px;
+    height: 30px;
+    background: red;
+    transition: 0.3s;
+    padding-top: -10px !important;
+}
+
+.list-group-item:hover #slide {
+    transition: 0.3s;
+    left: 0;
+}
+
+.fa-trash-alt {
+    color: white;
+    margin: auto;
+    text-align: center;
+}
